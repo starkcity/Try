@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Ysabeau+Infant:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.BG {
+  background-color: #f5f5f5;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  background-color: #f9f9f9;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 45px 0px 45px 0px;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 30px;
+  display: flex;
+}
+
+/* portfolio */
+.font-f {
+  font-size: 30px;
+  font-family: 'Raleway Dots', cursive;
+  font-family: 'Ysabeau Infant', sans-serif;
+  letter-spacing: 10px;
+  padding: 10px 0 0 40px;
+}
+
+.Email {
+  /* padding-left: 150vh; */
+  font-size: 13px;
+  padding-left: 73%;
+  position: absolute;
+}
+
+nav {
+  /* background-color: #f2f2f2; */
+  padding: 0px;
+  position: sticky;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 0px;
+
+}
+
+.height-i {
+  height: 28px;
+  width: 28px;
+  display: flex;
+}
+
+section {
+  padding: 0px 20px 20px 0px;
+}
+
+.car-size {
+  width: 30%;
+}
+/* #myCarousel {
+  height: 400px; /* Adjust the height as desired */
+  width: 100%; /* Adjust the width as desired */
+} */
+
+.m-btn {
+  margin-left: 69%;
+}
+.t-btn {
+  width: 45%; height: 40px; 
+  color: whitesmoke; 
+  background-color: black; 
+  border-radius: 5px; 
+  margin: 2vh 2.5vh 0vh 2vh; 
+  text-align: center;
+  /* align-items: flex-start; */
+}
+.t-logo {
+  height: 15px;
+  background-color: #000000;
+  
+
+}
+
+.o-btn {
+  width: 95%; 
+  height: 40px; 
+  color: whitesmoke; 
+  background-color: black; 
+  margin: 4vh 3vh 0vh 2vh; 
+  text-align: start;
+}
+.o-logo {
+  height: 38px; 
+  width: 38px; 
+  background: #414141; 
+  padding: 8px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* this is twin color effect */
+
+/* .logo a:hover {
+  scale: 1.05;
+  color: teal;
+}
+new:hover {
+  scale: 1.05;
+  color: crimson;
+} */
+
+/* end */
+
+/* this is for flex box */
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  width: 410px;
+  height: 240px;
+  perspective: 1000px;
+
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  transform: rotateY(0deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-front {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background-color: #000000;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.cp {
+  font-size: 16px; 
+  padding: 5px;
+}
+
+
+.flip-cardO:hover .flip-card-innerO {
+  transform: rotateY(180deg);
+}
+
+.flip-cardO {
+  width: 410px;
+  height: 240px;
+  perspective: 1000px;
+
+}
+
+
+
+.flip-card-innerO {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  transform: rotateY(0deg);
+}
+
+.flip-card-frontO,
+.flip-card-backO {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-frontO {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-backO {
+  background-color: #000000;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.Epara {
+  /* height: 48vh; */
+  /* width: 95%; */
+  /* display: flex; */
+  /* background-color: rgba(0, 0, 0, 0.5); Adjust the alpha value (0.5 in this example) to control transparency */
+  /* text-align: center; */
+  /* padding-right: 50px; */
+  /* align-items: center; */
+  /* margin-left: 2.5%; */
+  /* margin-top: 55%; */
+  /* position: relative; */
+}
+
+.text {
+  /* position: absolute; */
+  /* z-index: 10; */
+}
+
+.text p
+{
+  
+  /* font-size: 10px; */
+  /* color: rgb(255, 255, 255);
+  margin: 20px 0;
+  font-weight: 0;
+  max-width: 700px; */
+  /* font-weight: bold; */
+}
+/* -----------------@media---------------------- */
+
+@media (max-width: 380px) {
+  /* Styles for smartphones */
+  header {
+    background-color: #f9f9f9;
+    color: black;
+    display: flex;
+    padding: 25px 0px 25px 0px;
+  }
+
+  .font-f {
+    
+    font-family: 'Raleway Dots', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    letter-spacing: 3px;
+    font-size: 22px;
+  }
+
+  .Email {
+    /* padding-left: 150vh; */
+    font-size: 12px;
+    padding: 10% 0% 0% 68%;
+    position: absolute;
+  }
+
+
+  nav {
+    /* background-color: #f2f2f2; */
+    display: none;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  nav ul li {
+    display: none;
+  }
+  
+  nav ul li a {
+    display: none;
+  
+  }
+  
+  .t-btn {
+    width: 20%; height: 18px; 
+    color: whitesmoke; 
+    background-color: black; 
+    border-radius: 5px; 
+    margin: 1vh 0vh 0vh 1vh; 
+    text-align: center;
+    /* align-items: flex-start; */
+    text-align: center;
+    font-size: 7px;
+    position: absolute;
+  }
+  .tt-btn {
+    width: 20%; height: 18px; 
+    color: whitesmoke; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 5px; 
+    margin: 1vh 0vh 0vh 14vh; 
+    text-align: center;
+    /* align-items: flex-start; */
+    text-align: center;
+    font-size: 7px;
+    position: absolute;
+  }
+  .m-btn {
+    margin-left: 30vh;
+  }
+  .t-logo {
+    height: 15px;
+    background-color: #000000;
+    
+
+  }
+
+  .o-btn {
+    width: 42%; 
+    height: 18px; 
+    color: whitesmoke; 
+    background-color: black; 
+    margin: 5vh 2vh 0vh 1.4vh; 
+    text-align: start;
+    position: absolute;
+    font-size: 7px;
+  }
+  .f-o {
+    padding: 1% 0% 0% 15%; 
+    position: absolute;
+  }
+  .o-logo {
+    height: 15px; 
+    width: 20px; 
+    background: #414141; 
+    padding: 8px;
+    margin: 0px 0px 12px 0px;
+  }
+
+  
+  .flip-card {
+    width: 160px;
+    height: 140px;
+    perspective: 1000px;
+    position: absolute;
+    margin:20% 0% 0% 55%;
+    position: absolute;
+  
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    transform: rotateY(0deg);
+  }
+
+  .flip-cardO {
+    width: 200px;
+    height: 60px;
+    perspective: 1000px;
+    position: absolute;
+    margin: 37.2% 0% 0% 1%;
+  }
+  
+  
+  
+  .flip-card-innerO {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    transform: rotateY(0deg);
+  }
+  
+  .cp {
+    font-size: 10px;
+     padding: 5px;
+  }
+
+  section {
+    padding: 0px 20px 20px 0px;
+    /* position: absolute; */
+  }
+
+  .car-size {
+    margin: 10vh 0vh 0vh 0vh;
+    /* padding: 5vh 0vh 0vh 0vh; */
+    width: 80%; 
+    background-color: black;
+    position: absolute;
+    /* display: inline; */
+  }
+
+  .Epara {
+    height: 48vh;
+    width: 95%;
+    /* display: flex; */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5 in this example) to control transparency */
+    text-align: center;
+    /* padding-right: 50px; */
+    /* align-items: center; */
+    margin-left: 2.5%;
+    margin-top: 55%;
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .text p
+  {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    font-weight: 0;
+    max-width: 700px;
+    /* font-weight: bold; */
+  }
+  
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  /* Styles for tablets */
+  
+  header {
+    background-color: #f9f9f9;
+    color: black;
+    display: flex;
+    padding: 25px 0px 25px 0px;
+  }
+
+  .font-f {
+    
+    font-family: 'Raleway Dots', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    letter-spacing: 3px;
+    font-size: 22px;
+  }
+
+  .Email {
+    /* padding-left: 150vh; */
+    font-size: 12px;
+    padding: 10% 0% 0% 68%;
+    position: absolute;
+  }
+
+
+  nav {
+    /* background-color: #f2f2f2; */
+    display: none;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  nav ul li {
+    display: none;
+  }
+  
+  nav ul li a {
+    display: none;
+  
+  }
+  
+  .t-btn {
+    width: 20%; height: 18px; 
+    color: whitesmoke; 
+    background-color: black; 
+    border-radius: 5px; 
+    margin: 1vh 0vh 0vh 1vh; 
+    text-align: center;
+    /* align-items: flex-start; */
+    text-align: center;
+    font-size: 7px;
+    position: absolute;
+  }
+  .tt-btn {
+    width: 20%; height: 18px; 
+    color: whitesmoke; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 5px; 
+    margin: 1vh 0vh 0vh 11.5vh; 
+    text-align: center;
+    /* align-items: flex-start; */
+    text-align: center;
+    font-size: 7px;
+    position: absolute;
+  }
+  .m-btn {
+    margin-left: 24vh;
+  }
+  .t-logo {
+    height: 15px;
+    background-color: #000000;
+    
+
+  }
+
+  .o-btn {
+    width: 42%; 
+    height: 18px; 
+    color: whitesmoke; 
+    background-color: black; 
+    margin: 5vh 2vh 0vh 1.4vh; 
+    text-align: start;
+    position: absolute;
+    font-size: 7px;
+  }
+  .f-o {
+    padding: 1% 0% 0% 15%; 
+    position: absolute;
+  }
+  .o-logo {
+    height: 15px; 
+    width: 20px; 
+    background: #414141; 
+    padding: 8px;
+    margin: 0px 0px 12px 0px;
+  }
+
+  
+  .flip-card {
+    width: 160px;
+    height: 140px;
+    perspective: 1000px;
+    position: absolute;
+    margin:20% 0% 0% 55%;
+    position: absolute;
+  
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    transform: rotateY(0deg);
+  }
+
+  .flip-cardO {
+    width: 200px;
+    height: 60px;
+    perspective: 1000px;
+    position: absolute;
+    margin: 37.2% 0% 0% 1%;
+  }
+  
+  
+  
+  .flip-card-innerO {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    transform: rotateY(0deg);
+  }
+  
+  .cp {
+    font-size: 10px;
+     padding: 5px;
+  }
+
+  section {
+    padding: 0px 20px 20px 0px;
+    /* position: absolute; */
+  }
+
+  .car-size {
+    margin: 10vh 0vh 0vh 0vh;
+    /* padding: 5vh 0vh 0vh 0vh; */
+    width: 80%; 
+    background-color: black;
+    position: absolute;
+    /* display: inline; */
+  }
+
+  .Epara {
+    height: 48vh;
+    width: 95%;
+    /* display: flex; */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5 in this example) to control transparency */
+    text-align: center;
+    /* padding-right: 50px; */
+    /* align-items: center; */
+    margin-left: 2.5%;
+    margin-top: 55%;
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .text p
+  {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    font-weight: 0;
+    max-width: 700px;
+    /* font-weight: bold; */
+  }
+  
+}
+  
+}
+
+@media (min-width: 769px) {
+  /* Styles for laptops and larger screens */
+
+
+  .Epara {
+    /* height: 48vh; */
+    /* width: 95%; */
+    /* display: flex; */
+    /* background-color: rgba(0, 0, 0, 0.5); Adjust the alpha value (0.5 in this example) to control transparency */
+    /* text-align: center; */
+    /* padding-right: 50px; */
+    /* align-items: center; */
+    /* margin-left: 2.5%; */
+    /* margin-top: 55%; */
+    /* position: relative; */
+    display: none;
+  }
+  
+  .text {
+    /* position: absolute; */
+    /* z-index: 10; */
+    display: none;
+  }
+  
+  .text p
+  {
+    
+    /* font-size: 10px; */
+    /* color: rgb(255, 255, 255);
+    margin: 20px 0;
+    font-weight: 0;
+    max-width: 700px; */
+    /* font-weight: bold; */
+    display: none;
+  }
+  
+  
+}
